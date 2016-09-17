@@ -58,3 +58,5 @@ group :test do
   gem 'rspec'
   gem 'capybara'
 end
+
+gem "codeclimate-test-reporter", group: :test, require: nil
