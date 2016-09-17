@@ -1,7 +1,7 @@
 #This file is for general steps which will be used throughout the app.
 
-Given(/^that I am on the about page$/) do
-    visit('/about')
+Given(/^that I am on the "([^"]*)" page$/) do |site|
+    visit("/#{site}")
 end
 
 Then(/^I will see the text "([^"]*)"$/) do |text|
