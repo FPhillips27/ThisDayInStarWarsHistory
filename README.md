@@ -6,6 +6,9 @@
 
 The app runs in Rails and uses Bootstrap to ensure its design is responsive on all devices.
 
+###To Do
+Check GitHub Issues to find out what functionality is in the process of being added or improved.
+
 ###Testing
 Currently, the app is tested solely with acceptance tests run via Cucumber using the Capybara DSL. I plan to add Unit Tests at a later date using RSpec.
 
