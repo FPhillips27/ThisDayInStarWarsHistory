@@ -16,14 +16,19 @@
 @import "bootstrap";
 
 body {
-    background-color:#000;
-    color:#4BD5EE;
-    font-family: 'Libre Franklin', sans-serif;
+  background:#000 url('/stars.png');
+  background-repeat: repeat-y;
+  color:#4BD5EE;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p {
+  color: #4BD5EE;
 }
 
 h1 {
-    color: #E5B13A;
-    font-family: 'Montserrat', sans-serif;
+  color: #E5B13A;
+  font-family: 'Montserrat', sans-serif;
 }
 .stars{
   position:absolute;
@@ -37,8 +42,18 @@ h1 {
 }
 
 .stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background:#000 url('/stars.png');
+  background-repeat: repeat-y;
   z-index:0;
+}
+
+.lcrl {
+  background-color: #28727F;
+  color: #FFF;
+}
+
+.content {
+  color: #3CABBF;
 }
 
 .jumbotron {
@@ -46,11 +61,27 @@ h1 {
 }
 
 .jumbotron h1 {
-    color: #E5B13A;
-    font-family: 'Montserrat', sans-serif;
+  color: #E5B13A;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron h2 {
-    color: #E5B13A;
-    font-family: 'Montserrat', sans-serif;
+  color: #E5B13A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #E5B13A;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #BF9430;
 }

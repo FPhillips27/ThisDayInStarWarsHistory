@@ -1,0 +1,14 @@
+<div class="container-fluid stars">
+  <div class="text-center jumbotron">
+    <h1>Complete List of Facts</h2>
+    <% @daily_facts.each do |daily_facts| %>
+      <center>
+        <%= content_tag :h2, daily_facts.day%>
+        <em><%= content_tag :h3, daily_facts.headline%></em>
+        <%= content_tag :p, daily_facts.content, class: 'content' %>
+        <%= content_tag :p, daily_facts.LCRL, class: 'lcrl' %>
+        <%= link_to "Source", daily_facts.source %>
+      </center>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,2 @@
+module DailyFactsHelper
+end

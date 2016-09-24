@@ -1,0 +1,2 @@
+class DailyFact < ApplicationRecord
+end
