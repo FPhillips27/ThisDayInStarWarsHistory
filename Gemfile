@@ -56,7 +56,7 @@ group :test do
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
   gem 'rspec'
-  gem 'capybara', '2.9.1'
+  gem 'capybara', '2.10.1'
 end
 
 gem "codeclimate-test-reporter", group: :test, require: nil
