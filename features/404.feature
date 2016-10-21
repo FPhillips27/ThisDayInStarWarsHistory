@@ -4,3 +4,4 @@ Feature: The 404 page
     Given that I am on the "404" page
     Then I will see the secondary header "Lost a Page, Master Obi-Wan Has. How embarassing..."
     And I will see the text "Unfortunately, the page you were looking for couldn't be found."
+    And I will see the background

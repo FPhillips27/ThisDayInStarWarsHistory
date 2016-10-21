@@ -5,3 +5,4 @@ Feature: The About Page
     Then I will see the secondary header "Canon"
     And I will see the secondary header "Legends"
     And I will see the secondary header "Real Life"
+    And I will see the background

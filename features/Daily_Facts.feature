@@ -6,3 +6,4 @@ Feature: Daily Facts page
     And I will see the tertiary header "X-Wing: Rogue Squadron is Published"
     And I will see a Daily Fact with the content "On January 1, 1996, the novel X-Wing: Rogue Squadron was released. It was the first book in the highly influential X-Wing series."
     And I will see a link to the source which is labeled "Source"
+    And I will see the background

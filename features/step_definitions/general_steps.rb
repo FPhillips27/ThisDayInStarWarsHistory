@@ -27,3 +27,7 @@ end
 Then(/^I will see a Daily Fact with the content "([^"]*)"$/) do |text|
     expect(page).to have_css 'p.content', text: "#{text}"
 end
+
+Then(/^I will see the background$/) do
+    expect(page).to have_css '.stars'
+end
