@@ -8,3 +8,4 @@ Feature: Today's Fact
     And I will see the content of a fact
     And I will see the Legends, Canon, or Real Life icon
     And I will see the source of a fact
+    And I will see the background
